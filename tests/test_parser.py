@@ -19,5 +19,5 @@ class ConnectTestSuite(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    # print(AbuseCh.ransomware_domain_list())
-    # print(AbuseCh.get_all_ip_lists())print
+    # print(AbuseCh.ransomware_domain_list())       # todo
+    # print(AbuseCh.get_all_ip_lists())             # todo
