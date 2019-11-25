@@ -8,12 +8,15 @@ with open('LICENSE') as f:
 
 setup(
     name='abusech',
-    version='0.1',
+    version='0.2',
     description='AbuseCh Module',
     long_description=readme,
     author='threatlead',
     author_email='threatlead@gmail.com',
     url='https://github.com/threatlead/',
     license=license,
-    packages=find_packages(exclude=('tests',))
+    packages=find_packages(exclude=('docs',)),
+    install_requires=[
+        'requests_html',
+    ],
 )
